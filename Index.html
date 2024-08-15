@@ -48,9 +48,27 @@
       height: 100%;
     }
 
+    .logo {
+      width: 55px;
+    }
+
+    .nav-item {
+      font-family: "Barlow";
+      font-size: 20px;
+    }
+
+    .navbar {
+      background-color: #f8f8f8;
+      color: aqua;
+    }
+
+    .nav-item a:hover {
+      color: var(--secondary-color);
+    }
+
     .hero {
       width: 100%;
-      height: 90%;
+      height: 80%;
       background-size: cover;
       background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
         url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/145/original/omg_not_wireless.png?1723637453");
@@ -62,9 +80,9 @@
       color: white;
       font-family: "Pacifico";
       text-align: center;
-      font-size: 77px;
+      font-size: 80px;
       line-height: 0.5;
-      padding-top: 600px;
+      padding-top: 300px;
       padding-bottom: 30px;
       margin: 0;
       letter-spacing: 4px;
@@ -72,6 +90,43 @@
   </style>
 
   <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/374/original/Screenshot_2024-08-15_at_12.09.57.png?1723720535"
+            class="logo"
+            alt="Phonelogo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Beatrix" class="jump-to">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Beatrix" class="jump-to"
+                >Retro Phones</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="hero">
       <div class="hero-text">
         <h1>OMG it's not wirless!</h1>
