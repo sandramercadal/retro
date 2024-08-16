@@ -43,13 +43,8 @@
     />
   </head>
   <style>
-    body,
-    html {
-      height: 100%;
-    }
-
     .logo {
-      width: 55px;
+      width: 52px;
     }
 
     .nav-item {
@@ -58,7 +53,7 @@
     }
 
     .navbar {
-      background-color: #f8f8f8;
+      background-color: #ffffff;
       color: aqua;
     }
 
@@ -68,12 +63,11 @@
 
     .hero {
       width: 100%;
-      height: 80%;
+      height: 100%;
       background-size: cover;
       background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
         url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/145/original/omg_not_wireless.png?1723637453");
       background-position: center;
-      padding: 20px;
     }
 
     .hero h1 {
@@ -81,11 +75,59 @@
       font-family: "Pacifico";
       text-align: center;
       font-size: 80px;
-      line-height: 0.5;
+      line-height: 1;
       padding-top: 300px;
       padding-bottom: 30px;
       margin: 0;
       letter-spacing: 4px;
+    }
+
+    .movies h1 {
+      color: rgb(199, 127, 19);
+
+      font-weight: 700;
+      font-style: normal;
+      text-align: center;
+      font-size: 35px;
+    }
+
+    img.burger {
+      animation: float 2.5s ease-in-out infinite;
+      width: 600px;
+      padding-left: 200px;
+    }
+    .hamburgerphone {
+      background-color: #2b2b28;
+      padding: 40px;
+    }
+    .hamburgerphone h1 {
+      color: #ffffff;
+      font-family: "Pacifico";
+      text-align: center;
+      font-size: 50px;
+      padding: 10px;
+      padding-top: 20px;
+    }
+    .hamburgerphone h2 {
+      color: #ffffff;
+      font-size: 20px;
+      font-family: "Barlow";
+      padding-top: 10px;
+    }
+    @keyframes float {
+      0% {
+        transform: translatey(0px);
+      }
+      50% {
+        transform: translatey(-10px);
+      }
+      100% {
+        transform: translatey(0px);
+      }
+    }
+
+    .responsive-img {
+      width: 100%;
     }
   </style>
 
@@ -94,7 +136,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/374/original/Screenshot_2024-08-15_at_12.09.57.png?1723720535"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/547/original/Screenshot_2024-08-16_at_11.29.54.png?1723804213"
             class="logo"
             alt="Phonelogo"
         /></a>
@@ -119,7 +161,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Beatrix" class="jump-to"
-                >Retro Phones</a
+                >Retro phones</a
               >
             </li>
           </ul>
@@ -129,8 +171,28 @@
 
     <div class="hero">
       <div class="hero-text">
-        <h1>OMG it's not wirless!</h1>
+        <h1>OMG <br />it's not wirless!</h1>
       </div>
+    </div>
+
+    <div class="movies">
+      <h1>From Screen to Scene</h1>
+      <h2>The evolution of mobile phones in Hollywood movies</h2>
+    </div>
+
+    <div></div>
+
+    <div class="hamburgerphone">
+      <h1>Ring, Ring!</h1>
+      <h2>
+        Remember the iconic Cheeseburger phone — a classic retro piece for any
+        pop culture fan. This quirky phone featured in Juno (starring Elliot
+        Page) and Coming to America (with Eddie Murphy).
+      </h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/552/original/this_burger.png?1723806335"
+        class="responsive-img burger"
+      />
     </div>
   </body>
 </html>
