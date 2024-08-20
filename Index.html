@@ -85,29 +85,56 @@
       margin: 0;
       letter-spacing: 4px;
     }
-
+ 
+  span:nth-child(1) {
+  color: lightcoral;
+}
+span:nth-child(2) {
+  color: hotpink;
+}
+span:nth-child(3) {
+  color: purple;
+}
+span:nth-child(4) {
+  color: darkblue;
+}
+span:nth-child(5) {
+  color: blue;
+}
+span:nth-child(6) {
+  color: indigo;
+}
+span:nth-child(7) {
+  color: violet;
+}
     .movies {
       padding: 50px;
       background-color: #ececec;
     }
 
     .movies h1 {
-      color: white;
-      font-weight: 700;
+      color: ;
       font-style: normal;
       text-align: center;
       font-size: 45px;
-       font-family: "Pacifico";
+      font-family: "Architects Daughter", cursive;
+      padding: 20px;
     }
     .movies h2 {
        font-family: "Architects Daughter", cursive;
       text-align: center;
     }
-    .mobies p {
+    .movies p {
        font-family: "Architects Daughter", cursive;
-       font-size: 22px;
-       justify-content: center;
-       text-align: center;
+       font-size: 25px;
+      text-align: center;
+      justify-content: end;
+    }
+    .movies p1 {
+       font-family: "Architects Daughter", cursive;
+       font-size: 20px;  
+       text-align: center;   
+       justify-content: end;  
     }
     img.burger {
       animation: float 1.5s ease-in-out infinite;
@@ -157,7 +184,8 @@
       margin: 0px;
       padding: 0px;
       box-sizing: border-box; 
-        font-family: "Architects Daughter", cursive;
+      font-family: "Architects Daughter", cursive;
+    
     }
 
     .card {
@@ -183,16 +211,28 @@
       color: black;
       font-size: 35px;
     }
+    .card-content2 p {
+      color: black;
+      font-size: 35px;
+      padding: 16px;
+    }
     .card-content h3 {
       font-size: 35px;
       margin-top: 9px;
     }
-    .card-content p {
-      font-size: 15px;
-      line-height: 1.3;
-      
+      .card-content h4 {
+      font-size: 30px;
+     
     }
- 
+    .card-content p {
+      font-size: 17px;
+      line-height: 1.3;
+      text-align: left;
+    }
+  .card-content2 p {
+     
+    }
+  
 
 
     .hamburgerphone .card {
@@ -244,20 +284,30 @@
 
     <div class="hero">
       <div class="hero-text">
-        <h1>OMG <br />it's not wirless!</h1>
+        <h1>OMG
+          
+           <br />it's not wirless!</h1>
       </div>
     </div>
 
     <div class="movies">
-      <h1>From Screen to Scene</h1>
-      <h2>Hollywood’s phone glow-up: from bricks to slick</h2>
-      <p>The introduction to mobile phones 1980's</p>
-        <p1>The Early Days: The Brick Era (1980s-1990s) Mobile phones first hit the big screen in the 1980s, symbolizing wealth and power with their bulky "brick" designs.
-       
-      </p1>
-<p>The Flip Phone Revolution (1990s-2000s)
-     The 1990's-2000's saw the rise of the flip phone —sleeker, more compact, and synonymous with teen culture and style. 
-        Think Cher's iconic flip phone in Clueless or Keanu Reeves' "banana" phone in The Matrix.</p>
+      <h1>Hollywood’s phone 
+         <span>g</span><span>l</span><span>o</span><span>w</span><span>-</span><span>u</span><span>p</span>
+      from bricks to slick</h1>
+      
+    
+        <p><strong> Early Days: The Brick Era (1980's-1990's)</p></strong> 
+        <p1>Mobile phones first hit the big screen in the 1980's, quickly becoming symbols of wealth and power with their bulky "brick" designs.
+          These devices were notoriously large. In the 1987 film "Wall Street," Michael Douglas epitomized this trend, 
+          exuding cool confidence as he talked on his oversized mobile phone.
+      </p1><br><br>
+      
+<p><strong> The Flip Phone Revolution (1990's-2000's)</p></strong> 
+     <p1>The 1990's-2000's marked the rise of the flip phone — sleek, compact, and synonymous with teen culture, fashion and style. 
+        From Cher’s iconic flip phone in "Clueless" to Keanu Reeves’ distinctive banana phone in "The Matrix", 
+        the flip phone became more than just a communication device; it was a statement of style and a symbol of technological progress.
+        <br><br>
+</p1>
 
         <div class="card-container">
           <div class="card">
@@ -279,7 +329,7 @@
           <div class="card-content">
             <h3> Jerry Maquire</h3>
             <h4>1996</h4>
-            <p>Far far away</p>
+            <p>It's an extendable antenna!</p>
           </div>
         </div>
 
@@ -291,7 +341,7 @@
               <div class="card-content">
                 <h3>American Pyscho</h3>
                 <h4>2000</h4>
-                <p>Far far away</p>
+                <p>Hearing you loud and clear on my Motorola Dynatac 8100L brick</p>
               </div>
             </div>
           </div>
@@ -310,7 +360,7 @@
         class="responsive-img burger"
       />
  <h2>
-        Featured in Coming to America (1998) and
+        Featured in "Coming to America" (1998) <br><br>and<br>
       </h2>
 
 
@@ -327,7 +377,7 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/554/origina
               />
               <div class="card-content2">
                 <h3>Juno</h3>
-                <p>2007</p>
+                <p class ="">2007</p>
               </div>
             </div>
           </div>
