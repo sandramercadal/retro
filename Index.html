@@ -229,11 +229,8 @@ span:nth-child(7) {
       line-height: 1.3;
       text-align: left;
     }
-  .card-content2 p {
-     
-    }
   
-
+ 
 
     .hamburgerphone .card {
       width: 325px;
@@ -242,6 +239,21 @@ span:nth-child(7) {
       overflow: hidden;
       margin: 20px;
     }
+
+    .grid {
+        margin: 60px auto;
+        display: grid;
+        width: 800px;
+        grid-template-columns: repeat(3, 266px);
+        gap: 20px;
+      }
+
+      .grid img {
+        width: 100%;
+        border-radius: 10px;
+      }
+ 
+
   </style>
 
   <body>
@@ -292,7 +304,7 @@ span:nth-child(7) {
 
     <div class="movies">
       <h1>Hollywood’s phone 
-         <span>g</span><span>l</span><span>o</span><span>w</span><span>-</span><span>u</span><span>p</span>
+         <span>g</span><span>l</span><span>o</span><span>w</span><span>-</span><span>u</span><span>p</span><span>:</span>
       from bricks to slick</h1>
       
     
@@ -314,6 +326,7 @@ span:nth-child(7) {
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/140/080/original/Screenshot_2024-08-19_at_15.10.09.png?1724076769"
             />
+
             <div class="card-content">
               <h3>Clueless</h3>
               <h4>1995</h4>
@@ -325,7 +338,8 @@ span:nth-child(7) {
         <div class="card">
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/512/original/Screenshot_2024-08-16_at_08.03.19.png?1723791842"
-          />
+             />
+             
           <div class="card-content">
             <h3> Jerry Maquire</h3>
             <h4>1996</h4>
@@ -337,7 +351,7 @@ span:nth-child(7) {
             <div class="card">
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/140/075/original/Screenshot_2024-08-19_at_15.06.15.png?1724076394"
-              />
+                 />
               <div class="card-content">
                 <h3>American Pyscho</h3>
                 <h4>2000</h4>
@@ -376,8 +390,8 @@ span:nth-child(7) {
 https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/554/original/juno.png?1723807431"
               />
               <div class="card-content2">
-                <h3>Juno</h3>
-                <p class ="">2007</p>
+                <h3>Juno<br>2007</h3>
+                
               </div>
             </div>
           </div>
@@ -385,5 +399,26 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/554/origina
       </div>
     </div>
     </div>
+
+   
+<div class="grid">
+      <img
+        src="https://i.guim.co.uk/img/media/bf48c81421313e74475763bd7dcbe9ac6735de97/388_666_6112_3668/master/6112.jpg?width=1300&quality=45&fit=max&dpr=2&s=b2401ef9d0d95b3f598ac09141eace84"
+        alt=""
+      />
+      <img
+        src="https://i.guim.co.uk/img/media/ff943673f0312b3d2e7662cd9e044ff687c6e888/0_0_6000_3600/master/6000.jpg?width=880&quality=45&fit=max&dpr=2&s=dbf85214879becfc1de61295a2046a4a"
+        alt=""
+      />
+
+      <img
+        src="https://i.guim.co.uk/img/media/b43edc6f9c11c10393da9174b6ee13d2e6165069/0_184_5608_3365/master/5608.jpg?width=620&quality=45&fit=max&dpr=2&s=1a43c9fa76b2cbb7108892d4c18dd41c"
+        alt=""
+      />
+      
+     
+    </div>
+
+
   </body>
 </html>
