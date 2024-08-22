@@ -85,13 +85,13 @@
   color: red;
 }
 span:nth-child(2) {
-  color: darkgoldenrod;
+  color: purple;
 }
 span:nth-child(3) {
   color: hotpink;
 }
 span:nth-child(4) {
-  color: yellow;
+  color:orange;
 }
 span:nth-child(5) {
   color: green;
@@ -132,15 +132,15 @@ span:nth-child(7) {
     
     img.burger {
       animation: float 1.5s ease-in-out infinite;
-      width: 600px;
-      padding-left: 150px;
-      padding-top: 20px;
+      width: 300px;
+      padding-top: 40px;
+      padding-left: 40px;
     }
     .hamburgerphone {
       background-color: #282826;
-      padding: 40px;
+      padding: 20px;
     }
-    .hamburgerphone h1 {
+    .grid-twocolumn h2 {
       color: #ffffff;
       font-family: "Pacifico";
       text-align: center;
@@ -195,7 +195,25 @@ span:nth-child(7) {
       margin: 20px;
     }
 
- 
+ .grid-twocolumn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 14px;
+  background-color: #282826;
+  color: #ececec;
+}
+.section {
+
+
+}
+
+@media (max-width: 960px) {
+  .grid-twocolumn {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+}
 
   </style>
 
@@ -252,7 +270,7 @@ span:nth-child(7) {
       <h2>from bricks to slick</h2> 
       
     
-        <p><strong>Early Days: The Brick Era (1980's-1990's)</p></strong>
+        <p><strong>The Brick Era (1980's-1990's)</p></strong>
         <p1>Mobile phones first hit the big screen in the 1980's, quickly becoming symbols of wealth and power with their bulky "brick" designs.
           These devices were notoriously large. In the 1987 film "Wall Street," Michael Douglas epitomized this trend, 
           exuding cool confidence as he talked on his oversized mobile phone.
@@ -300,6 +318,33 @@ span:nth-child(7) {
 </div>
     </div>
 
+<section class= "grid-twocolumn">
+    <div>
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/552/original/this_burger.png?1723806335" alt="plaza" class="esponsive-img burger" />
+    </div>
+    <div>
+      
+      <h2>Ring, Ring!</h2>
+      <h3>Inroducing....</h3>
+      <p>Introducing the iconic Cheeseburger phone. A classic retro piece for any
+        pop culture fan.Introducing the iconic Cheeseburger phone. A classic retro piece for any
+        pop culture fan.</p>
+  </div>
+      <p>Featured in "Coming to America" (1998) <br><br>and<br></p>
+      
+
+
+      
+
+      
+
+      
+
+      
+
+
+  </section>
+
 
     <div class="hamburgerphone">
       <h1>Ring, Ring!</h1>
@@ -312,31 +357,7 @@ span:nth-child(7) {
         class="responsive-img burger"
       />
  <h2>
-        Featured in "Coming to America" (1998) <br><br>and<br>
-      </h2>
-
-
-      
-
-      
-
-          <div class="card-container">
-            <div class="card">
-              <img
-                src="
-
-https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/554/original/juno.png?1723807431"
-              />
-              <div class="card-content2">
-                <h3>Juno<br>2007</h3>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
+        
 
 
 
