@@ -139,8 +139,9 @@ span:nth-child(7) {
    font-family: "Chilanka", cursive;
   font-weight: 500;
   font-style: normal;
-  font-size: 17px;
+  font-size: 15px;
   text-align: justify;
+   
 }
 .movies p {
  font-family: "Chilanka", cursive;
@@ -148,6 +149,8 @@ span:nth-child(7) {
   font-style: normal;
   font-size: 22px;
   margin-top: 30px;
+   margin: 0 auto;
+  color: darkgray;
 };
 
     
@@ -209,6 +212,7 @@ span:nth-child(7) {
   font-size: 16px;
   font-family: "Architects Daughter", cursive;
 
+
 }
 .card-body h5 {
  
@@ -233,6 +237,23 @@ span:nth-child(7) {
 .section {
 
 
+}
+
+
+.formcontainer {
+  background-color: #282826;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #ececec;
+  
+
+  
+}
+.form {
+  background-color: whitesmoke;
+  padding: 40px;  
+  width: 600px;
+  
 }
 
 @media (max-width: 960px) {
@@ -299,15 +320,14 @@ span:nth-child(7) {
       
     
         <p><strong>The Brick Era (1980's-1990's)</p></strong>
-        <hr/>
         <p1>Mobile phones first hit the big screen in the 1980's, quickly becoming symbols of wealth and power with their bulky "brick" designs.
           These devices were notoriously large! In the 1987 film "Wall Street," Michael Douglas epitomized this trend, 
-          exuding cool confidence as he talked on his oversized mobile phone.
+          exuding cool confidence as he talked on his oversized phone.
       </p1><br><br>
       
 <p><strong> The Flip Phone Revolution (1990's-2000's)</p></strong> 
-<hr/>
-     <p1>Sleek, compact, and synonymous with teen culture and fashion. 
+
+     <p1>The flip phone - sleek, compact, and synonymous with teen culture and fashion. 
         From Cher’s iconic flip phone in "Clueless" to Keanu Reeves’ distinctive banana phone in "The Matrix", 
         the flip phone became a statement of style and a symbol of technological progress.
         <br><br>
@@ -368,21 +388,33 @@ span:nth-child(7) {
  <h2>
          <p>Featured in "Coming to America" (1998) <br><br>and<br></p>
 
-
-      
-
-      
-
-      
-
-      
-
-
   </section>
+<div class="form">
 
 
-   
 
+    <div class="formcontainer">
+      <h1>Simple Contact Form</h1>
+
+<form>
+  <p class="name">
+    <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" />
+  </p>
+
+ 
+
+  <p class="text">
+    <textarea name="text" class="feedback-input" id="Share your story" placeholder="Share your story"></textarea>
+  </p>
+
+
+  <div class="submit">
+    <input type="Share your story" value="SEND" id="button-blue" />
+  </div>
+
+</form>
+  </div>
+</div>
 
 
 
