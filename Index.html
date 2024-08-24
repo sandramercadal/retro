@@ -153,7 +153,7 @@ span:nth-child(7) {
   color: darkgray;
 };
 
-    
+   
 .card-body h5
  {
       font-family: "Moderustic", sans-serif;
@@ -163,13 +163,18 @@ span:nth-child(7) {
     
     img.burger {
       animation: float 1.5s ease-in-out infinite;
-      width: 300px;
-      padding-top: 40px;
+      width: 250px;
+      padding-top: 20px;
       padding-left: 40px;
     }
     .hamburgerphone {
       background-color: #282826;
       padding: 20px;
+    }
+    .hamburgerphone h3, .hamburgerphone p {
+       font-family: "Chilanka", cursive;
+        font-size: 20px;
+        text-align: center;
     }
     .grid-twocolumn h2 {
       color: #ffffff;
@@ -220,7 +225,7 @@ span:nth-child(7) {
 
 }
     .hamburgerphone .card {
-      width: 325px;
+      
       background-color:  #ececec;
       border-radius: 8px;
       overflow: hidden;
@@ -233,28 +238,35 @@ span:nth-child(7) {
   grid-gap: 14px;
   background-color: #282826;
   color: #ececec;
-}
-.section {
-
-
+ 
 }
 
-
-.formcontainer {
-  background-color: #282826;
-  max-width: 800px;
-  margin: 0 auto;
-  color: #ececec;
-  
-
-  
+.juno {
+ 
+  padding-left: 10px;
 }
-.form {
-  background-color: whitesmoke;
-  padding: 40px;  
-  width: 600px;
-  
-}
+
+
+  form {
+        border: 2px solid #282826;
+        padding: 15px;
+        border-radius: 8px;
+        background-color: whitesmoke;
+        max-width: 440px;
+        margin: 0 auto;
+        color: darkgray;
+        padding: 40px;
+        margin-top: 40px;
+     
+      }
+
+      label {
+        display: block;
+      }
+
+      .form-group {
+        margin: 10px 0;
+      }
 
 @media (max-width: 960px) {
   .grid-twocolumn {
@@ -376,45 +388,42 @@ span:nth-child(7) {
   </div>
      
        <div class="hamburgerphone">
-      
-      <h2>
-        Introducing the iconic Cheeseburger phone. A classic retro piece for any
-        pop culture fan.
-      </h2>
+      <h3>
+        Introducing the iconic Cheeseburger phone. <br>A classic retro piece for any
+        pop culture fan. Featured in "Coming to America" (1998) and Juno (2008)
+      </h3>
+      <center><img src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/552/original/this_burger.png?1723806335" width = "250" class="responsive-img burger">
+<img src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/554/original/juno.png?1723807431" width = "250" class="juno"></center>
       <img
         src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/552/original/this_burger.png?1723806335"
-        class="responsive-img burger"
+       class="responsive-img burger">
       />
- <h2>
-         <p>Featured in "Coming to America" (1998) <br><br>and<br></p>
-
   </section>
-<div class="form">
 
 
-
-    <div class="formcontainer">
-      <h1>Simple Contact Form</h1>
-
-<form>
-  <p class="name">
-    <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" />
-  </p>
-
- 
-
-  <p class="text">
-    <textarea name="text" class="feedback-input" id="Share your story" placeholder="Share your story"></textarea>
-  </p>
+<h2>-Share your story-</h2>
+<h3>sdhsajhdasjdhsajkhdsahdsahdsahdjhsajdhsajdhsahjkdsa
+  sgdhsagdhsagdhsaghdgashdgsahgdashgdsagh We would love to hear!
+</h3>
+  <form>
+      
 
 
-  <div class="submit">
-    <input type="Share your story" value="SEND" id="button-blue" />
-  </div>
+      <div class="form-group">
+        <label for="email"> Enter your email address </label>
+        <input type="email" id="email" required autofocus />
+      </div>
 
-</form>
-  </div>
-</div>
+      <div class="form-group">
+        <label for="password">Enter your password</label>
+        <input type="password" id="password" required />
+      </div>
+
+      
+      <div class="form-group">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
 
 
 
