@@ -119,7 +119,7 @@ span:nth-child(7) {
     }
 
     .movies h1 {
-      color: ;
+     
       font-style: normal;
       text-align: center;
       font-size: 42px;
@@ -127,7 +127,7 @@ span:nth-child(7) {
       
     }
       .movies h2 {
-      color: ;
+    
       font-style: normal;
       text-align: center;
       font-size: 35px;
@@ -163,34 +163,14 @@ span:nth-child(7) {
     
     img.burger {
       animation: float 1.5s ease-in-out infinite;
-      width: 250px;
-      padding-top: 20px;
-      padding-left: 40px;
+      width: 320px;  
+      
     }
     .hamburgerphone {
       background-color: #282826;
-      padding: 20px;
+      padding: 30px;
     }
-    .hamburgerphone h3, .hamburgerphone p {
-       font-family: "Chilanka", cursive;
-        font-size: 20px;
-        text-align: center;
-    }
-    .grid-twocolumn h2 {
-      color: #ffffff;
-      font-family: "Pacifico";
-      text-align: center;
-      font-size: 50px;
-      padding: 10px;
-      padding-top: 20px;
-    }
-    .hamburgerphone h2 {
-      color: #ffffff;
-      font-size: 25px;
-        font-family: "Architects Daughter", cursive;
-      padding-top: 10px;
-      text-align: center;
-    }
+ 
 
     @keyframes float {
       0% {
@@ -204,10 +184,6 @@ span:nth-child(7) {
       }
     }
 
-    .responsive-img {
-      width: 100%;
-    }
-  
 .card {
   background-color: #282826;
   color: whitesmoke;
@@ -216,38 +192,43 @@ span:nth-child(7) {
 .card-body p {
   font-size: 16px;
   font-family: "Architects Daughter", cursive;
-
-
 }
 .card-body h5 {
- 
   font-family: "Architects Daughter", cursive;
-
 }
-    .hamburgerphone .card {
-      
-      background-color:  #ececec;
-      border-radius: 8px;
-      overflow: hidden;
-      margin: 20px;
+
+.hamburgerphone h1 {
+  color: #ececec;
+}
+    
+.hamburgerphone h2 {
+      color: whitesmoke;
+      font-family: "Pacifico";
+      text-align: center;
+      font-size: 55px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin: 0; 
     }
 
- .grid-twocolumn {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 14px;
-  background-color: #282826;
-  color: #ececec;
- 
+    .hamburgerphone h3 {
+      color: whitesmoke;
+     font-family: "Chilanka", cursive;
+      text-align: center;
+      font-size: 19px;
+      margin-top: 30px;
+    }
+img.juno{
+  display: block;
+  margin: 0 auto;
+  border: solid white 7px;
+  border-radius: 6px;
+  margin-bottom: 20px;
 }
 
-.juno {
- 
-  padding-left: 10px;
-}
 
 
-  form {
+   form {
         border: 2px solid #282826;
         padding: 15px;
         border-radius: 8px;
@@ -257,7 +238,6 @@ span:nth-child(7) {
         color: darkgray;
         padding: 40px;
         margin-top: 40px;
-     
       }
 
       label {
@@ -267,6 +247,7 @@ span:nth-child(7) {
       .form-group {
         margin: 10px 0;
       }
+    
 
 @media (max-width: 960px) {
   .grid-twocolumn {
@@ -380,35 +361,32 @@ span:nth-child(7) {
 </div>
     </div>
 
-<section class= "grid-twocolumn">
+  <div class="hamburgerphone" style="text-align: center;">  
+    <h2>Ring, Ring!</h2>
+ 
+    <h3>
+        Introducing the iconic Cheeseburger phone. We can all look cool on the phone again!<br>A classic retro piece for any
+        pop culture fan.
+    </h3>
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/552/original/this_burger.png?1723806335" class="responsive-img burger">
 
-      
-      <h2>Ring, Ring!</h2>
-      
-  </div>
-     
-       <div class="hamburgerphone">
-      <h3>
-        Introducing the iconic Cheeseburger phone. <br>A classic retro piece for any
-        pop culture fan. Featured in "Coming to America" (1998) and Juno (2008)
-      </h3>
-      <center><img src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/552/original/this_burger.png?1723806335" width = "250" class="responsive-img burger">
-<img src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/554/original/juno.png?1723807431" width = "250" class="juno"></center>
-      <img
-        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/552/original/this_burger.png?1723806335"
-       class="responsive-img burger">
-      />
-  </section>
-
-
-<h2>-Share your story-</h2>
-<h3>sdhsajhdasjdhsajkhdsahdsahdsahdjhsajdhsajdhsahjkdsa
-  sgdhsagdhsagdhsaghdgashdgsahgdashgdsagh We would love to hear!
-</h3>
+    <h3>Featured in "Coming to America" (1999) Juno (2008)</h3>
+    <div class="row gy-3 mt-3">
+        <div class="col-sm">
+            <div class="card h-100">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/554/original/juno.png?1723807431" class="juno" style="width: 40%;">
+            </div>
+        </div>
+    </div>
+</div>
+                        
+    
+<div class="share">
+<h1>-Share your story-</h1>
+    <h2> My first phone was axxxxx and cccc
+      But now its Over to you we woul dlove to hear </h2>
   <form>
-      
-
-
+    
       <div class="form-group">
         <label for="email"> Enter your email address </label>
         <input type="email" id="email" required autofocus />
@@ -424,7 +402,7 @@ span:nth-child(7) {
         <input type="submit" value="Submit" />
       </div>
     </form>
-
+</div>
 
 
   </body>
