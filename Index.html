@@ -207,6 +207,7 @@ span:nth-child(7) {
     font-size: 19px;
     margin-top: 30px;
     }
+
 img.juno{
   display: block;
   margin: 0 auto;
@@ -214,12 +215,39 @@ img.juno{
   border-radius: 6px;
   margin-bottom: 20px;
 }
+.share {
+  background-color: #ececec;
+  padding-bottom: 20px;
+}
+.share h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  font-family: "Chilanka", cursive;
+}
+.share h2 {
+  color: darkgray;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Chilanka", cursive;
+    padding: 10px;
+}
+.share P {
+      color: darkgray;
+      font-family: "Chilanka", cursive;
+      text-align: center;
+      font-size: 42px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin: 0; 
+    }
 form {
-        border: 2px solid #282826;
+        border: 20px solid white;
         padding: 15px;
-        border-radius: 8px;
-        background-color: whitesmoke;
-        max-width: 440px;
+        border-radius: 9px;
+        background-color: #282826;
+        max-width: 400px;
         margin: 0 auto;
         color: darkgray;
         padding: 40px;
@@ -230,10 +258,18 @@ form {
         display: block;
       }
 
-      .form-group {
+      .form-name {
         margin: 10px 0;
+         font-family: "Chilanka", cursive;
       }
-    
+    .form-button, .form-story {
+ font-family: "Chilanka", cursive;
+    }
+.form-button {
+  font-size: 21px;
+}
+
+
 @media (max-width: 960px) {
   .grid-twocolumn {
     display: grid;
@@ -368,7 +404,7 @@ form {
     </h3>
     <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/552/original/this_burger.png?1723806335" class="responsive-img burger">
 
-    <h3>Featured in "Coming to America" (1998) Juno (2008)</h3>
+    <h3>Featured in "Coming to America" (1998) <br>&<br> "Juno" (2008)</h3>
     <div class="row gy-3 mt-3">
         <div class="col-sm">
             <div class="card h-100">
@@ -380,27 +416,29 @@ form {
                         
     
 <div class="share">
-<h1>-Share your story-</h1>
-    <h2> My first phone was axxxxx and cccc
-      But now its Over to you we woul dlove to hear </h2>
-  <form>
-    
-      <div class="form-group">
-        <label for="email"> Enter your email address </label>
-        <input type="email" id="email" required autofocus />
-      </div>
+    <p> Remember your 
+      <span>f</span><span>i</span><span>r</span><span>s</span><span>t</span> phone?</p>
+    <h2> My first phone was a hand-me-down Nokia that I didn’t even want. 
+      The ringtone was something else! <br>Now it’s over to you — what was your first phone like? Share your story!
+ </h2>
 
-      <div class="form-group">
-        <label for="password">Enter your password</label>
-        <input type="password" id="password" required />
+      <form>  
+        <h1>.Share your story.</h1>
+      <div class="form-name">
+        <label>Enter your name</label>
+        <input type="text" name="firstname">
       </div>
+      <div class="form-story">
+        <label>Your phone story</label>
+        <textarea id="message" type="text" placeholder=""></textarea>
+      </div>
+      <br>
 
-      
-      <div class="form-group">
+      <div class="form-button">
         <input type="submit" value="Submit" />
       </div>
     </form>
-</div>
+
 
 
   </body>
