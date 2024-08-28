@@ -53,6 +53,14 @@
 
 </head>
   <style>
+
+
+:root {
+  --primary-color:#282826;
+  --secondary-color: darkgray;
+  --accent2-color:  #ff895d;
+  --accent-color:  #f8f8f8;
+}
     .logo {
       width: 52px;
     }
@@ -68,7 +76,7 @@
     }
 
     .nav-item a:hover {
-      color: var(--secondary-color);
+      color: #ff895d;
     }
 
     .hero {
@@ -258,11 +266,11 @@ form {
         display: block;
       }
 
-      .form-name {
-        margin: 10px 0;
-         font-family: "Chilanka", cursive;
-      }
-    .button, .form-story {
+.form-name {
+margin: 10px 0;
+font-family: "Chilanka", cursive;
+}
+.button, .form-story {
  font-family: "Chilanka", cursive;
     }
 .button {
@@ -275,8 +283,8 @@ form {
 .footer {
  font-family: "Chilanka", cursive;
  text-align: center;
- 
 }
+
 @media (max-width: 960px) {
   .grid-twocolumn {
     display: grid;
@@ -297,8 +305,8 @@ form {
       font-size: 30px;
     }
 }
-
   </style>
+
 
   <body>
     <nav class="navbar navbar-expand-lg">
@@ -326,12 +334,10 @@ form {
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Beatrix" class="jump-to">Movies</a>
+              <a class="nav-link" href="#movies" class="jump-to">Movies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Beatrix" class="jump-to"
-                >Retro phones</a
-              >
+              <a class="nav-link" href="#hamburgerphone" class="jump-to">It's Retro</a>
             </li>
           </ul>
         </div>
@@ -347,6 +353,7 @@ form {
     </div>
 
     <div class="movies">
+        <div id="movies"></div>
       <h1>Hollywood’s phone 
          <span>g</span><span>l</span><span>o</span><span>w</span><span>-</span><span>u</span><span>p</span><span>:</span>
       <br></h1>
@@ -402,7 +409,8 @@ form {
 </div>
     </div>
 
-  <div class="hamburgerphone" style="text-align: center;">  
+  <div class="hamburgerphone" style="text-align: center">
+      <div id="hamburgerphone"></div>  
     <h2>Ring, Ring!</h2>
  
     <h3>
@@ -440,11 +448,11 @@ form {
       <br>
 
       <div class="button">
-       <button onclick="alert('Hi! we are on the Garfield phone right now, we will get to your story shortly. Thank you for sharing ✨')">Submit</button></div>
+       <button onclick="alert('Hi! we are on the Garfield phone right now, we will get to your story shortly. Thank you for sharing 😽')">Submit</button></div>
       </div>
        </div>
   <div class="footer mt-5">  
-                ~ <strong>This homepage was coded with 🧡 by </strong><a href="https://www.linkedin.com/in/sandramercadal/" 
+                ~ <strong>This responsive homepage was coded with 🧡 by </strong><a href="https://www.linkedin.com/in/sandramercadal/" 
                 target="_blank">Sandra Mercadal
               </a>using HTML5 & CSS. <br><strong>Open-sourced </strong>on <a href="https://github.com/sandramercadal/retro" 
               target="_blank"><strong>Github</strong></a>
