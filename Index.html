@@ -216,7 +216,7 @@ img.juno{
   margin-bottom: 20px;
 }
 .share {
-  background-color: #ececec;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
   padding-bottom: 20px;
 }
 .share h1 {
@@ -227,14 +227,14 @@ img.juno{
   font-family: "Chilanka", cursive;
 }
 .share h2 {
-  color: darkgray;
+  color: #282826;
   font-size: 18px;
   text-align: center;
   font-family: "Chilanka", cursive;
     padding: 10px;
 }
 .share P {
-      color: darkgray;
+      color: #282826;
       font-family: "Chilanka", cursive;
       text-align: center;
       font-size: 42px;
@@ -268,8 +268,15 @@ form {
 .form-button {
   font-size: 21px;
 }
-
-
+.form-button :hover {
+  color: #ff895d;
+  background-color: #282826;
+}
+.footer {
+ font-family: "Chilanka", cursive;
+ text-align: center;
+ 
+}
 @media (max-width: 960px) {
   .grid-twocolumn {
     display: grid;
@@ -418,10 +425,8 @@ form {
 <div class="share">
     <p> Remember your 
       <span>f</span><span>i</span><span>r</span><span>s</span><span>t</span> phone?</p>
-    <h2> My first phone was a hand-me-down Nokia that I didn’t even want. 
-      The ringtone was something else! <br>Now it’s over to you — what was your first phone like? Share your story!
+    <h2> My first phone was a hand-me-down Nokia. I remember the ringtone was something else! <br>Now it’s over to you — what was your first phone like? Share your story!
  </h2>
-
       <form>  
         <h1>.Share your story.</h1>
       <div class="form-name">
@@ -437,9 +442,22 @@ form {
       <div class="form-button">
         <input type="submit" value="Submit" />
       </div>
+      </div>
+       </div>
+  <div class="footer mt-5">  
+                ~ <strong> Coded by </strong><a href="https://www.linkedin.com/in/sandramercadal/" 
+                target="_blank">Sandra Mercadal
+              </a>using HTML5 & CSS. <br><strong>Open-sourced </strong>on <a href="https://github.com/sandramercadal/Beatrix" 
+              target="_blank"><strong>Github</strong></a>
+              and <strong>hosted</strong> on <a href="https://hollywoodphones.netlify.app" target="_blank"><strong> Netlify</strong></a> ~ 
+              </p>      
+       </div>
+       <br/>
     </form>
 
+     
 
 
   </body>
 </html>
+ 
