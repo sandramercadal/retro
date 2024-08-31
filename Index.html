@@ -72,11 +72,11 @@
 
     .navbar {
       background-color: #f8f8f8;
-      color: #ff895d;
+     color: var(--accent2-color);
     }
 
     .nav-item a:hover {
-      color: #ff895d;
+    color: var(--accent2-color);
     }
 
     .hero {
@@ -163,10 +163,12 @@ span:nth-child(7) {
     }
 
     .hamburgerphone {
-      background-color: #282826;
+      background-color: var(--primary-color);
       padding: 30px;
     }
  
+
+
     @keyframes float {
       0% {
         transform: translatey(0px);
@@ -180,7 +182,7 @@ span:nth-child(7) {
     }
 
 .card {
-  background-color: #282826;
+ background-color: var(--primary-color);
   color: whitesmoke;
   font-family: "Architects Daughter", cursive;
 }
@@ -235,14 +237,14 @@ img.juno{
   font-family: "Chilanka", cursive;
 }
 .share h2 {
-  color: #282826;
+ color: var(--primary-color);
   font-size: 18px;
   text-align: center;
   font-family: "Chilanka", cursive;
     padding: 10px;
 }
 .share P {
-      color: #282826;
+     color: var(--primary-color);
       font-family: "Chilanka", cursive;
       text-align: center;
       font-size: 38px;
@@ -254,7 +256,7 @@ form {
         border: 20px solid white;
         padding: 15px;
         border-radius: 9px;
-        background-color: #282826;
+        background-color: var(--primary-color);
         max-width: 400px;
         margin: 0 auto;
         color: darkgray;
@@ -277,8 +279,8 @@ font-family: "Chilanka", cursive;
   font-size: 21px;
 }
 .button :hover {
-  color: #ff895d;
-  background-color: #282826;
+ color: var(--accent2-color);
+ background-color: var(--primary-color);
 }
 .footer {
  font-family: "Chilanka", cursive;
@@ -438,7 +440,7 @@ font-family: "Chilanka", cursive;
       <form>  
         <h1>.Share your story.</h1>
       <div class="form-name">
-        <label>Enter your name</label>
+        <label>Your name</label>
         <input type="text" name="firstname">
       </div>
       <div class="form-story">
@@ -448,7 +450,7 @@ font-family: "Chilanka", cursive;
       <br>
 
       <div class="button">
-       <button onclick="alert('Hi! we are on the Garfield phone right now, we will get to your story shortly. Thank you for sharing 😽')">Submit</button></div>
+       <button onclick="alert('Hi! on the Garfield phone right now - will get to your story soon. Thank you for sharing 😽')">Submit</button></div>
       </div>
        </div>
   <div class="footer mt-5">  
